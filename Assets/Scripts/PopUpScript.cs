@@ -14,6 +14,9 @@ public enum PopUpSides
     top,
 }
 
+
+[DisallowMultipleComponent]
+[AddComponentMenu("Pop Ups/Pop Up")]
 public class PopUpScript : MonoBehaviour
 {
     /// <summary>

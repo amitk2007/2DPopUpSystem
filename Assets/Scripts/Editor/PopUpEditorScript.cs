@@ -11,7 +11,6 @@ public enum ImageOrWeb
 
 [CustomEditor(typeof(PopUpScript))]
 [CanEditMultipleObjects]
-
 public class PopUpEditorScript : Editor
 {
     PopUpScript popUp;
@@ -19,11 +18,11 @@ public class PopUpEditorScript : Editor
     ImageOrWeb isButtonImageWeb;
     bool ShowBG = true;
     bool ShowButton = true;
-    string stringToEdit = "adadadasdsadasda";
     #region SerializedPropertys
     SerializedProperty BGImage;
     SerializedProperty buttonImage;
     #endregion
+
     void OnEnable()
     {
         popUp = (PopUpScript)target;
